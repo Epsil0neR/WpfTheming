@@ -1,12 +1,11 @@
 ﻿<ResourceDictionary 
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:wpfTheming="clr-namespace:WpfTheming"
     xmlns:theming="clr-namespace:WpfTheming.Theming">
     <ResourceDictionary.MergedDictionaries>
-        <theming:ThemedResourceDictionary Source="Themes/Blue/Colors.xaml">
+        <theming:ThemedResourceDictionary Source="Blue/Colors.xaml">
             <theming:ThemedResourceDictionary.Themes>
-                <theming:ThemeUri Theme="Blue" Source="Themes/Blue/Colors.xaml" />
-                <theming:ThemeUri Theme="Red" Source="Themes/Red/Colors.xaml" />
+                <theming:ThemeUri Theme="Blue" Source="Blue/Colors.xaml" />
+                <theming:ThemeUri Theme="Red" Source="Red/Colors.xaml" />
             </theming:ThemedResourceDictionary.Themes>
         </theming:ThemedResourceDictionary>
     </ResourceDictionary.MergedDictionaries>
